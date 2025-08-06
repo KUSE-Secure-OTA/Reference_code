@@ -1,0 +1,9 @@
+<!-- "v1.0.1" -->
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/aston_back.jpg</file>
+        <file>images/aston_front.jpg</file>
+        <file>images/aston_logo.png</file>
+    </qresource>
+</RCC>

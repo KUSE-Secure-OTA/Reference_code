@@ -1,0 +1,31 @@
+{
+    "version": "0.0.0",
+    "IC_someip": {
+        "IC_someip": {
+            "path": "build/IC_someip",
+            "version": "0.0.0",
+            "sha256": "Np4E+FfAzqopWvSpbbZREfosR0XRNuL7+R8noXQT+h0=",
+            "signature": "/UyNBR92b3mGtg3ICO95t19PL+5IaLeVIjYCjslUaUPuqBsLrkixZOh7flbdyCiKp6SM60BeirIPW+jKIhfUZrpyNwB+VCn7DlxZfT+jCvjeAyc/6tP3anC92wH3QaGz"
+        },
+        "libIC_someip-someip.so": {
+            "path": "build/libIC_someip-someip.so",
+            "version": "0.0.0",
+            "sha256": "JEU0y89WRmkCtnHNPetgnjgHHr/CK2wHGn8NsZ6Wxyo=",
+            "signature": "f+5HWD6pgUNRYG50KDcT5fcoDoTG46mVCu1XallMyKD4+hanjseex2lnCHgVWwt2Oi1RkSpoXWkf9Bcke8PHn2Nu/tumBBpEcalWBJJqvO8q4afdjraFPddJ7uSRUZaI"
+        }
+    },
+    "Head_Unit_app": {
+        "libHead_Unit_app-someip.so": {
+            "path": "build/libHead_Unit_app-someip.so",
+            "version": "0.0.0",
+            "sha256": "26oqqopyD134TBMzUQqe3Y3WB+txwirE1IbURT38HcU=",
+            "signature": "pxvEjySQf2pwox+71Eyn2r81ahYuTU4+yVkMJWxo0Ud9JJexCKPa8VtOSHlQrn82mZ9TVvGiqvClGzxc25uZjBCm55x5pE3FRgJfVJu9cIjwYiyJW5ZtKcZ5jbks/Kur"
+        },
+        "Head_Unit_app": {
+            "path": "build/Head_Unit_app",
+            "version": "0.0.0",
+            "sha256": "7+w4wmo1njf18kU5byszyUhLAXJ3eU38uwrg4CofPEs=",
+            "signature": "mkwfpzHOGaN4R2aDhturPA3uWdmQQ9MIrnGUBdyMyOyFGjteeo/X38aQmRSuh8LOiUYDOo0yhgpErnZQVyLzf5CbtnrhHodBmFQXZ6x04NR3oLqQBassv+mVFCN30TuV"
+        }
+    }
+}

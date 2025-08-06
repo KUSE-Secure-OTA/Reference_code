@@ -1,0 +1,25 @@
+{
+    "version": "0.9.9",
+    "TestABC": {
+        "main.cpp": {
+            "path": "main.cpp",
+            "version": "0.9.9"
+        },
+        "aston_logo.png": {
+            "path": "images/aston_logo.png",
+            "version": "0.9.9"
+        },
+        "hyundai_front1.jpg": {
+            "path": "images/hyundai_front1.jpg",
+            "version": "0.9.9"
+        },
+        "hyundai_front.jpg": {
+            "path": "images/hyundai_front.jpg",
+            "version": "0.9.9"
+        },
+        "lambo_back.jpg": {
+            "path": "images/lambo_back.jpg",
+            "version": "0.9.9"
+        }
+    }
+}

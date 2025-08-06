@@ -1,8 +1,0 @@
-{
-    "commonapi.OTA_exter" : {
-        "service_id": 4663,
-        "instances" : {
-            "commonapi.OTA_service_exter": 22139
-        }
-    }
-}

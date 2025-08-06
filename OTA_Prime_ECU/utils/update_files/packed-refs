@@ -1,0 +1,11 @@
+# pack-refs with: peeled fully-peeled sorted 
+f462bbdb52dbda488c7a5c13a09a81398751e8fb refs/remotes/origin/1-build-test-envrionmentgazebo
+d165dd881159ce15bf0e57b65f2a65fe7bbb1de3 refs/remotes/origin/10-develop-localization
+815ac6fa8df7670d3f2e9e86a0b9b32592172aad refs/remotes/origin/12-robot_localization-feature-updated
+366050cb749067c46bf2d3545c3afa632643470d refs/remotes/origin/17-develop-control-on-simulator
+3015109132630361f9d9911732286b0957a0b1ef refs/remotes/origin/19-hotfix-purepursuit-in-simulator
+2a9abda9511447b2ac5fd8ac33da75fce08c0822 refs/remotes/origin/2-implement-simple-lane-keeping-method
+48de3e568de96127198ff0ba352c39f89e7b5723 refs/remotes/origin/21-pure-pursuit-using-odometry
+71f4945fcff2fc2a37759d1a67e6e768cc1b3cde refs/remotes/origin/7-add-some-features-on-simulator
+74548bfc2fe10de850f19a4f8b744be74b55e21b refs/remotes/origin/9-develop-pure-pursuit-control-on-simulator
+e68bab3066ab9da7fd72279f6c3351d562b8a6d7 refs/remotes/origin/main

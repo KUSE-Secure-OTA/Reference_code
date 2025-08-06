@@ -1,20 +1,88 @@
 {
     "version": "0.0.0",
-    "TestABC": {
-        "qml.qrc": {
-            "path": "qml.qrc",
+    "IC_someip": {
+        "main.cpp": {
+            "path": "main.cpp",
             "version": "0.0.0"
         },
-        "main.qml": {
-            "path": "main.qml",
+        "car-highlights.png": {
+            "path": "images/car-highlights.png",
             "version": "0.0.0"
         },
-        "lambo_back.jpg": {
-            "path": "images/lambo_back.jpg",
+        "Vector 70.svg": {
+            "path": "images/Vector 70.svg",
             "version": "0.0.0"
         },
-        "hyundai_front.jpg": {
-            "path": "images/hyundai_front.jpg",
+        "iconizer-day-cloudy-icon.svg": {
+            "path": "images/iconizer-day-cloudy-icon.svg",
+            "version": "0.0.0"
+        },
+        "out_ring.png": {
+            "path": "images/out_ring.png",
+            "version": "0.0.0"
+        },
+        "Vector 2.svg": {
+            "path": "images/Vector 2.svg",
+            "version": "0.0.0"
+        },
+        "lam_logo.jpg": {
+            "path": "images/lam_logo.jpg",
+            "version": "0.0.0"
+        },
+        "ring.svg": {
+            "path": "images/ring.svg",
+            "version": "0.0.0"
+        },
+        "Vector 1.svg": {
+            "path": "images/Vector 1.svg",
+            "version": "0.0.0"
+        },
+        "back_ground_bright.png": {
+            "path": "images/back_ground_bright.png",
+            "version": "0.0.0"
+        },
+        "iconizer-address-location-icon.svg": {
+            "path": "images/iconizer-address-location-icon.svg",
+            "version": "0.0.0"
+        },
+        "IC_Screen.png": {
+            "path": "images/IC_Screen.png",
+            "version": "0.0.0"
+        },
+        "Ellipse 1.svg": {
+            "path": "images/Ellipse 1.svg",
+            "version": "0.0.0"
+        },
+        "battery.png": {
+            "path": "images/battery.png",
+            "version": "0.0.0"
+        },
+        "iconizer-gas-station-icon.svg": {
+            "path": "images/iconizer-gas-station-icon.svg",
+            "version": "0.0.0"
+        },
+        "left_green.png": {
+            "path": "images/left_green.png",
+            "version": "0.0.0"
+        },
+        "right_green.png": {
+            "path": "images/right_green.png",
+            "version": "0.0.0"
+        },
+        "right_origin.png": {
+            "path": "images/right_origin.png",
+            "version": "0.0.0"
+        },
+        "iconizer-headphone-icon.svg": {
+            "path": "images/iconizer-headphone-icon.svg",
+            "version": "0.0.0"
+        },
+        "background_g.png": {
+            "path": "images/background_g.png",
+            "version": "0.0.0"
+        },
+        "left_origin.png": {
+            "path": "images/left_origin.png",
             "version": "0.0.0"
         }
     }

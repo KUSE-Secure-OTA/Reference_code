@@ -1,0 +1,12 @@
+/opt/OTA_Handler
+	/boot_manager
+	/handler_tcp_client
+		/update
+		chunkStatusFiles.txt
+		handler_tcp_client
+	/handler_tcp_server
+		/tmp
+		handler_tcp_server
+	client.sh
+	server.sh
+	status.txt

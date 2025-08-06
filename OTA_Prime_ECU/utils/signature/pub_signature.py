@@ -30,7 +30,7 @@ def make_payload_with_signature(data):
 
     data["signature"] = base64.b64encode(signature).decode()
 
-    print("Payload:     ", data, "\n\n", "=" * 50)
+    #print("Payload:     ", data, "\n\n", "=" * 50)
 
     return json.dumps(data)
 

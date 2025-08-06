@@ -1,3 +1,4 @@
 {
-	"TestABC" : "/home/pdc/OTA_main/OTA_Prime_ECU/TestABC"
+    "TestABC": "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC",
+    "IC_someip": "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/IC_someip"
 }

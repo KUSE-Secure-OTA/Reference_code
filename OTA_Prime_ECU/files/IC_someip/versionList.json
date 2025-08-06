@@ -1,0 +1,255 @@
+{
+    "version": "0.3.0",
+    "IC_someip": {
+        "CMakeLists.txt": {
+            "path": "CMakeLists.txt",
+            "version": "0.0.0"
+        },
+        "battery.h": {
+            "path": "battery.h",
+            "version": "0.0.0"
+        },
+        "rpm_gauge.cpp": {
+            "path": "rpm_gauge.cpp",
+            "version": "0.0.0"
+        },
+        "ic_interstubimpl.h": {
+            "path": "ic_interstubimpl.h",
+            "version": "0.0.0"
+        },
+        "gear.cpp": {
+            "path": "gear.cpp",
+            "version": "0.0.0"
+        },
+        "main.cpp": {
+            "path": "main.cpp",
+            "version": "0.3.0"
+        },
+        "batteryupdate.cpp": {
+            "path": "batteryupdate.cpp",
+            "version": "0.0.0"
+        },
+        "ICStubImpl.cpp": {
+            "path": "ICStubImpl.cpp",
+            "version": "0.0.0"
+        },
+        "battery.cpp": {
+            "path": "battery.cpp",
+            "version": "0.0.0"
+        },
+        "Dial.qml": {
+            "path": "Dial.qml",
+            "version": "0.0.0"
+        },
+        "rpm_gauge.h": {
+            "path": "rpm_gauge.h",
+            "version": "0.0.0"
+        },
+        "speedProvider.h": {
+            "path": "speedProvider.h",
+            "version": "0.0.0"
+        },
+        "pdc.h": {
+            "path": "pdc.h",
+            "version": "0.0.0"
+        },
+        "SpeedText.qml": {
+            "path": "SpeedText.qml",
+            "version": "0.0.0"
+        },
+        "get_battery.cpp": {
+            "path": "get_battery.cpp",
+            "version": "0.0.0"
+        },
+        "ICStubImpl.h": {
+            "path": "ICStubImpl.h",
+            "version": "0.0.0"
+        },
+        "receiver.h": {
+            "path": "receiver.h",
+            "version": "0.0.0"
+        },
+        "ic_interstubimpl.cpp": {
+            "path": "ic_interstubimpl.cpp",
+            "version": "0.0.0"
+        },
+        "vehiclecomponents.h": {
+            "path": "vehiclecomponents.h",
+            "version": "0.0.0"
+        },
+        "battery_gauge.h": {
+            "path": "battery_gauge.h",
+            "version": "0.0.0"
+        },
+        "mode.h": {
+            "path": "mode.h",
+            "version": "0.0.0"
+        },
+        "batteryupdate.h": {
+            "path": "batteryupdate.h",
+            "version": "0.0.0"
+        },
+        "vehiclecomponents.cpp": {
+            "path": "vehiclecomponents.cpp",
+            "version": "0.0.0"
+        },
+        "DialSet.qml": {
+            "path": "DialSet.qml",
+            "version": "0.0.0"
+        },
+        "lrsign.h": {
+            "path": "lrsign.h",
+            "version": "0.0.0"
+        },
+        "piracer_control.cpp": {
+            "path": "piracer_control.cpp",
+            "version": "0.0.0"
+        },
+        "main.qml": {
+            "path": "main.qml",
+            "version": "0.0.0"
+        },
+        "CMakeLists.txt.user.6562083": {
+            "path": "CMakeLists.txt.user.6562083",
+            "version": "0.0.0"
+        },
+        "sender.h": {
+            "path": "sender.h",
+            "version": "0.0.0"
+        },
+        "pdc.cpp": {
+            "path": "pdc.cpp",
+            "version": "0.0.0"
+        },
+        "sender.cpp": {
+            "path": "sender.cpp",
+            "version": "0.0.0"
+        },
+        "qml.qrc": {
+            "path": "qml.qrc",
+            "version": "0.0.0"
+        },
+        "mode.cpp": {
+            "path": "mode.cpp",
+            "version": "0.0.0"
+        },
+        "Needle.qml": {
+            "path": "Needle.qml",
+            "version": "0.0.0"
+        },
+        "battery_gauge.cpp": {
+            "path": "battery_gauge.cpp",
+            "version": "0.0.0"
+        },
+        "receiver.cpp": {
+            "path": "receiver.cpp",
+            "version": "0.0.0"
+        },
+        "lrsign.cpp": {
+            "path": "lrsign.cpp",
+            "version": "0.0.0"
+        },
+        "speed.h": {
+            "path": "speed.h",
+            "version": "0.0.0"
+        },
+        "get_battery.h": {
+            "path": "get_battery.h",
+            "version": "0.0.0"
+        },
+        "gear.h": {
+            "path": "gear.h",
+            "version": "0.0.0"
+        },
+        "Clock.h": {
+            "path": "Clock.h",
+            "version": "0.0.0"
+        },
+        "speed.cpp": {
+            "path": "speed.cpp",
+            "version": "0.0.0"
+        },
+        "car-highlights.png": {
+            "path": "images/car-highlights.png",
+            "version": "0.3.0"
+        },
+        "Vector 70.svg": {
+            "path": "images/Vector 70.svg",
+            "version": "0.3.0"
+        },
+        "iconizer-day-cloudy-icon.svg": {
+            "path": "images/iconizer-day-cloudy-icon.svg",
+            "version": "0.3.0"
+        },
+        "out_ring.png": {
+            "path": "images/out_ring.png",
+            "version": "0.3.0"
+        },
+        "Vector 2.svg": {
+            "path": "images/Vector 2.svg",
+            "version": "0.3.0"
+        },
+        "lam_logo.jpg": {
+            "path": "images/lam_logo.jpg",
+            "version": "0.3.0"
+        },
+        "ring.svg": {
+            "path": "images/ring.svg",
+            "version": "0.3.0"
+        },
+        "Vector 1.svg": {
+            "path": "images/Vector 1.svg",
+            "version": "0.3.0"
+        },
+        "back_ground_bright.png": {
+            "path": "images/back_ground_bright.png",
+            "version": "0.3.0"
+        },
+        "iconizer-address-location-icon.svg": {
+            "path": "images/iconizer-address-location-icon.svg",
+            "version": "0.3.0"
+        },
+        "IC_Screen.png": {
+            "path": "images/IC_Screen.png",
+            "version": "0.3.0"
+        },
+        "Ellipse 1.svg": {
+            "path": "images/Ellipse 1.svg",
+            "version": "0.3.0"
+        },
+        "battery.png": {
+            "path": "images/battery.png",
+            "version": "0.3.0"
+        },
+        "iconizer-gas-station-icon.svg": {
+            "path": "images/iconizer-gas-station-icon.svg",
+            "version": "0.3.0"
+        },
+        "left_green.png": {
+            "path": "images/left_green.png",
+            "version": "0.3.0"
+        },
+        "right_green.png": {
+            "path": "images/right_green.png",
+            "version": "0.3.0"
+        },
+        "right_origin.png": {
+            "path": "images/right_origin.png",
+            "version": "0.3.0"
+        },
+        "iconizer-headphone-icon.svg": {
+            "path": "images/iconizer-headphone-icon.svg",
+            "version": "0.3.0"
+        },
+        "background_g.png": {
+            "path": "images/background_g.png",
+            "version": "0.3.0"
+        },
+        "left_origin.png": {
+            "path": "images/left_origin.png",
+            "version": "0.3.0"
+        }
+    },
+    "timestamp": "2025-06-02T11:57:25.238949+00:00",
+    "signature": "y+3iP39KOaa5HrK3SphXbwRZaY0+i06WEGXHXbUMXagMR4IQF98pRgSTWby5BRZN1ftrCOTVy25LDoA6eFEpJxNtBt2UcrJSQrQ8mA81q9bGriIn52OPEedxeX2qVL9o"
+}

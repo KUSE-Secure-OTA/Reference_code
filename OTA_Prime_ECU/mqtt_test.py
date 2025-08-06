@@ -11,8 +11,10 @@ from utils.OTA_GUI import show_update_gui
 from utils.signature.sub_signature import verify_signature
 from utils.signature.pub_signature import make_payload_with_signature
 from json_manage import JSON_manager
+import requests
+import os
 
-brokerIp = "192.168.86.30"
+brokerIp = "192.168.86.22"
 port = 8883
 topic_from_server_notify = "file/added"
 topic_from_server_files = "file/files"
@@ -38,7 +40,6 @@ def check_and_build_function(event):
     while True:
         event.wait()
         print("\n##### Load Update List #####")
-        load_updateList()
         if json_manager.move_original_file_to_tmp():
             print("\n##### Move Original Files to Tmp Success #####")
             if json_manager.move_update_file_to_ws():
@@ -86,41 +87,51 @@ def on_connect(client, userdata, flags, rc):
 
 
 def on_message(client, userdata, msg):
-    if verify_signature(msg.payload):
-        if msg.topic == topic_from_server_notify:
-            print("\n##### New Update Exist Notification From Server #####")
-            payload_target = msg.payload.decode('utf-8')
-            data = json.loads(payload_target)
-            if "directory" in data:
-                json_manager.check_target_is_new(data["directory"])
-            else:
-                print("\n%%%%% There is No Target Name in MQTT MSG %%%%%")
-                return
-            version_payload = make_payload_with_signature(json_manager.versionList)
-            client.publish(topic_to_server, version_payload)
-        elif msg.topic == topic_from_server_files:
-            print("\n##### New Update Files Have Arrived From Server #####")
-            try:
-                file_data = json.loads(msg.payload.decode())
-
-                with open("received_update.tar.gz", "wb") as f:
-                    f.write(base64.b64decode(file_data["encoded_files"]))
-                print("\n##### New Zip File Saved")
-                event.set()
-            except:
-                print("\n%%%%% New Zip File Save Error %%%%%")
-        elif msg.topic == topic_permission_client:
-            decoded_payload = json.loads(msg.payload.decode('utf-8'))
-            if decoded_payload["reset"]:
-                pass
-            else:
-                print("\n##### Server Ask For Permission #####")
-                ask_update_permission(client)
-                    
+    if msg.topic == topic_from_server_notify:
+        print("\n##### New Update Exist Notification From Server #####")
+        payload_target = msg.payload.decode('utf-8')
+        data = json.loads(payload_target)
+        print(data)
+        if "directory" in data:
+            json_manager.check_target_is_new(data["directory"])
         else:
-            print("invalid topic")
+            print("\n%%%%% There is No Target Name in MQTT MSG %%%%%")
+            return
+        version_payload = make_payload_with_signature(json_manager.versionList)
+        client.publish(topic_to_server, version_payload, qos=1)
+    elif msg.topic == topic_from_server_files:
+        print("\n##### New Update Files Have Arrived From Server #####")
+        try:
+            file_data = json.loads(msg.payload.decode())
+            download_url = file_data["url"]
+            print(download_url)
+            try:
+                response = requests.get(download_url, stream=True, verify=False)
+                response.raise_for_status() 
+                save_path = "received_update.tar.gz"
+                with open(save_path, "wb") as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                print(f"File downloaded successfully and saved to: {save_path}")
+                print(f"Size: {os.path.getsize(save_path)} bytes")
+                
+            except Exception as e:
+                print(f"❌ Download failed: {e}")
+            load_updateList()
+            event.set()
+        except:
+            print("\n%%%%% New Zip File Save Error %%%%%")
+    elif msg.topic == topic_permission_client:
+        decoded_payload = json.loads(msg.payload.decode('utf-8'))
+        if decoded_payload["reset"]:
+            print("reset statstst")
+            pass
+        else:
+            print("\n##### Server Ask For Permission #####")
+            ask_update_permission(client)
+                
     else:
-        print("\n##### Verification Fail #####")
+        print("invalid topic")
 
 
 
@@ -128,7 +139,7 @@ def ask_update_permission(client):
     def yes_callback():
         print("Permission granted. Start update now.")
         callback_payload = make_payload_with_signature({"update": True})
-        client.publish(topic_permission_server, callback_payload)
+        client.publish(topic_permission_server, callback_payload, qos=2)
 
     def no_callback(wait_time):
         print(f"Permission denied. Will ask again in {wait_time} sec.")
@@ -145,8 +156,8 @@ def clear_retained_message(client, topic):
 def configure_tls(client):
     client.tls_set(
         ca_certs="./utils/certs/ca.crt",
-        certfile="./utils/certs/client.crt",
-        keyfile="./utils/certs/client.key",
+        certfile="./utils/certs/mqtt_client.crt",
+        keyfile="./utils/certs/mqtt_client.key",
         tls_version=ssl.PROTOCOL_TLSv1_2
     )
     client.tls_insecure_set(False)

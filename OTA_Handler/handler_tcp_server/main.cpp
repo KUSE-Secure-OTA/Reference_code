@@ -35,7 +35,7 @@ int main(){
     if (status == 5){
         Service->setStatus(static_cast<int32_t>(HandlerStatus::ACTIVATE));
         Service->fireHandlerStatusEvent(Service->getStatus());
-        int ret = system("sh /home/ota/boot_manager/boot_manager.sh");
+        int ret = system("sh /opt/OTA_Handler/boot_manager/boot_manager.sh");
         int exitCode = WEXITSTATUS(ret);
         if(exitCode == 0){
             std::cout<<"##### New File Activate Success #####" << std::endl;
@@ -48,7 +48,7 @@ int main(){
         }
     }else{
         std::cout << "\n\t\tTarget ECU START\n" << std::endl;
-        int ret = system("sh /home/ota/boot_manager/simpleStart.sh");
+        int ret = system("sh /opt/OTA_Handler/boot_manager/simpleStart.sh");
         int exitCode = WEXITSTATUS(ret);
         if(exitCode == 0){
             std::cout <<"##### simpleStart star #####" <<std::endl;

@@ -1,0 +1,31 @@
+{
+    "version": "2.9.9",
+    "TestABC": {
+        "main.cpp": {
+            "path": "main.cpp",
+            "version": "2.9.9",
+            "sha256": "FIze2QsFAgFOReocY6hVlLAn691/R2jIjv3Z7dDwLwk=",
+            "signature": "mpzaGnuMC6QU+ro5UEZmuRHeP9kSX5wlNAX585T9zpSYQcU+Hp7l1grIPS/cM13Ot67axsMWrTdXgtT+ejyKazBn2UGzV6yefWz93mregIZ3WkSlIA3l3aaMN5i09g5f"
+        },
+        "main.qml": {
+            "path": "main.qml",
+            "version": "0.0.1",
+            "sha256": "NukqZU75Lz09WcX1kGgE4X3fZ6OqoUNGVxFcMe59s0M=",
+            "signature": "h7cw2XBHmoXOobiSqPMP1cV8mnTc9tECEApchqAqMM2dudb7/T8g9N6XqpL6UQg/5Xx45DHU26LRl00gFBITfa5jG9l7tC8SVj12YQMxFGcAdGudDq1f/MSySUkCb74E"
+        },
+        "qml.qrc": {
+            "path": "qml.qrc",
+            "version": "0.0.1",
+            "sha256": "ho9Ke8RW1Tsx3RsYnSFJpAd5v9KJPpJrf5RBNx+hkYI=",
+            "signature": "pZwt6zJTzyYnvxpfIoPk0YG3FTBYFaIUS1njZA+UI8HyKSSUaARZSUUMAx36860iC6iI2eCzbhMwG+SJxylxYVeDc+ht689wXockfc0/iqxk+HkznT8v9g7b0kAYlaSj"
+        },
+        "hyundai_front.jpg": {
+            "path": "images/hyundai_front.jpg",
+            "version": "2.9.9",
+            "sha256": "2DlSTb5XdS9Xwh3YqPbvwKiBTE7xGzG+6TmY4RQV2Bs=",
+            "signature": "cIbkJhCg0e4h2Ixm+HjOh31caZWbnwFgwt8uMNbL4COg9j9CE/msIipQRFajgRbFROHgZHzn2HkjgW+0a4Bw3lp9O5C/Ki3LkqV1hy5ZXN4F3n4YvLfsG2vRjGyHzIym"
+        }
+    },
+    "timestamp": "2025-06-07T13:56:42.017405+00:00",
+    "signature": "LUTD6gXF95wZ4KjzFNZNnK3//NTwQtJhVlyCJHS4CfQ6g4IDKmq3FlUV3n08I3yY0hCq7aVBVe6AujiJBXi3z8+lfirjWNB4HaUgD7vhmAmpKMfCK7a5ZuXjdoxo3avo"
+}

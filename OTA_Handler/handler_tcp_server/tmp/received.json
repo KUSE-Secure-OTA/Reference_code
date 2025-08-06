@@ -1,19 +1,9 @@
 {
     "files": [
         {
-            "name": "green_window",
+            "name": "IC_someip",
             "status": "0/0",
             "type": "exec"
-        },
-        {
-            "name": "green_window1",
-            "status": "0/0",
-            "type": "exec"
-        },
-        {
-            "name": "gui_Test",
-            "status": "0/0",
-            "type": "IC"
         }
     ]
 }

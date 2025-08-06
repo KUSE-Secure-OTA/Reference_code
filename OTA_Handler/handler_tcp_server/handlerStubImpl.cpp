@@ -6,6 +6,8 @@
 
 using namespace v0::commonapi;
 using json = nlohmann::json;
+
+int chunkSize = 40000;
 handlerStubImpl::handlerStubImpl() : downloadStarted_(false){
     std::cout << "[Server] HandlerStubImpl called.\n";
     //read undone stauts file
@@ -127,7 +129,7 @@ void handlerStubImpl::updateMsg(const std::shared_ptr<CommonAPI::ClientId> _clie
             // }
             std::string jsonStr = std::string(udsMsg.begin() + 1,udsMsg.end());
             json j = json::parse(jsonStr);
-            std::ofstream out("/home/ota/Documents/handler_tcp_server/tmp/received.json");
+            std::ofstream out("./handler_tcp_server/tmp/received.json");
             out <<j.dump(4);
             out.close();
             downloadStarted_ = true;
@@ -150,8 +152,8 @@ void handlerStubImpl::updateMsg(const std::shared_ptr<CommonAPI::ClientId> _clie
             std::cout<<"# of chunks: "<<n<<std::endl;
 
             // Verify chunk
-            CommonAPI::ByteBuffer chunk(udsMsg.begin() + 4 + fileNameLength, udsMsg.begin() + 4 + fileNameLength + 8000);
-            CommonAPI::ByteBuffer mac(udsMsg.begin() + 4 + fileNameLength + 8000, udsMsg.end());
+            CommonAPI::ByteBuffer chunk(udsMsg.begin() + 4 + fileNameLength, udsMsg.begin() + 4 + fileNameLength + chunkSize);
+            CommonAPI::ByteBuffer mac(udsMsg.begin() + 4 + fileNameLength + chunkSize, udsMsg.end());
             size_t msgLen = sizeof(chunk);
             size_t mac_len = sizeof(mac);
             
@@ -171,7 +173,7 @@ void handlerStubImpl::updateMsg(const std::shared_ptr<CommonAPI::ClientId> _clie
 
             //int padLen = static_cast<int>(chunk.back());
             std::cout << "pad len :" <<padLen<< std::endl;
-            if (padLen == 0 || padLen > 8000 || padLen > chunk.size()) {
+            if (padLen == 0 || padLen > chunkSize || padLen > chunk.size()) {
                 std::cerr << "[ERROR] Incorrect chunk" << std::endl;
             }
 
@@ -259,7 +261,7 @@ void handlerStubImpl::updateMsg(const std::shared_ptr<CommonAPI::ClientId> _clie
             }                
             std::filesystem::path baseDir = std::filesystem::current_path();
             std::filesystem::path interDir = "handler_tcp_server/tmp";
-            std::string targetDir = extractDirFromJson("/home/ota/boot_manager/status.json", 4);
+            std::string targetDir = extractDirFromJson("./boot_manager/status.json", 4);
             std::string targetDirPath = "";
 
             baseDir = baseDir / interDir;
@@ -271,7 +273,7 @@ void handlerStubImpl::updateMsg(const std::shared_ptr<CommonAPI::ClientId> _clie
                         continue;
                     }
                     std::filesystem::path filePath = baseDir / filename;
-                    targetDirPath = "/home/ota/boot_manager/" + targetDir +"/"+ filename;
+                    targetDirPath = "./boot_manager/" + targetDir +"/"+ filename;
                     moveFile(filePath.string(),targetDirPath);
                     targetDirPath = "";
                 }

@@ -1,0 +1,55 @@
+{
+    "version": "0.0.0",
+    "src-gen": {
+        "ICStub.hpp": {
+            "path": "core/v0/commonapi/ICStub.hpp",
+            "version": "0.0.0"
+        },
+        "ICProxyBase.hpp": {
+            "path": "core/v0/commonapi/ICProxyBase.hpp",
+            "version": "0.0.0"
+        },
+        "ICStubDefault.hpp": {
+            "path": "core/v0/commonapi/ICStubDefault.hpp",
+            "version": "0.0.0"
+        },
+        "IC.hpp": {
+            "path": "core/v0/commonapi/IC.hpp",
+            "version": "0.0.0"
+        },
+        "ICProxy.hpp": {
+            "path": "core/v0/commonapi/ICProxy.hpp",
+            "version": "0.0.0"
+        },
+        "ICSomeIPDeployment.cpp": {
+            "path": "someip/v0/commonapi/ICSomeIPDeployment.cpp",
+            "version": "0.0.0"
+        },
+        "ICSomeIPStubAdapter.cpp": {
+            "path": "someip/v0/commonapi/ICSomeIPStubAdapter.cpp",
+            "version": "0.0.0"
+        },
+        "ICSomeIPDeployment.hpp": {
+            "path": "someip/v0/commonapi/ICSomeIPDeployment.hpp",
+            "version": "0.0.0"
+        },
+        "ICSomeIPProxy.hpp": {
+            "path": "someip/v0/commonapi/ICSomeIPProxy.hpp",
+            "version": "0.0.0"
+        },
+        "ICSomeIPStubAdapter.hpp": {
+            "path": "someip/v0/commonapi/ICSomeIPStubAdapter.hpp",
+            "version": "0.0.0"
+        },
+        "ICSomeIPCatalog.json": {
+            "path": "someip/v0/commonapi/ICSomeIPCatalog.json",
+            "version": "0.0.0"
+        },
+        "ICSomeIPProxy.cpp": {
+            "path": "someip/v0/commonapi/ICSomeIPProxy.cpp",
+            "version": "0.0.0"
+        }
+    },
+    "timestamp": "2025-04-22T11:00:28.810401+00:00",
+    "signature": "SPA3oughFT7YICH1tKO46lv5OjG0CVu/Y8IDqEnXTOB0aWcyyoAivABpIYJpwSOBWkGdDXKrrT6LM1lRmGqosLRe4Bi8g93ywttlCulnICWmFA7J5parusBhlEX3UcL8"
+}

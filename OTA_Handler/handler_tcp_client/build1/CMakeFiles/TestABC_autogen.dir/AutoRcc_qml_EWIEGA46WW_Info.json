@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/build/TestABC_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC",
+	"CMAKE_SOURCE_DIR" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC",
+	"INCLUDE_DIR" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/build/TestABC_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/main.qml",
+		"/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/images/aston_logo.png",
+		"/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/images/lambo_back.jpg",
+		"/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/images/hyundai_front.jpg"
+	],
+	"LOCK_FILE" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/build/CMakeFiles/TestABC_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/build/CMakeFiles/TestABC_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/TestABC/qml.qrc",
+	"VERBOSITY" : 0
+}

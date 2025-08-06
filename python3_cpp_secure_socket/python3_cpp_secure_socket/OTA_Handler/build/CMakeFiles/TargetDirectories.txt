@@ -1,4 +1,0 @@
-/home/jwoon/Documents/python3_cpp_secure_socket/OTA_Handler/build/CMakeFiles/OTA_inter.dir
-/home/jwoon/Documents/python3_cpp_secure_socket/OTA_Handler/build/CMakeFiles/OTA_inter-someip.dir
-/home/jwoon/Documents/python3_cpp_secure_socket/OTA_Handler/build/CMakeFiles/edit_cache.dir
-/home/jwoon/Documents/python3_cpp_secure_socket/OTA_Handler/build/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-LD_LIBRARY_PATH=../install_folder/lib:$PWD/OTA_Prime_ECU_exter/build COMMONAPI_CONFIG=commonapi4someip.ini VSOMEIP_CONFIGURATION=./json/IC_OTA_exter.json VSOMEIP_APPLICATION_NAME=ota-client ./OTA_Prime_ECU_exter/build/OTA_ecu

@@ -1,8 +1,0 @@
-{
-    "commonapi.OTA_inter" : {
-        "service_id": 4662,
-        "instances" : {
-            "commonapi.OTA_service_inter": 22138
-        }
-    }
-}

@@ -11,7 +11,7 @@ port = 1883
 
 json_file = "./receive_signature.json"
 
-TIME_THRESHOLD = 10
+TIME_THRESHOLD =300
 
 def verify_signature(payload):
     try:        
@@ -28,7 +28,9 @@ def verify_signature(payload):
             return False
         
         current_time = datetime.fromisoformat(datetime.now(timezone.utc).isoformat())
+        print(f"\nCurrent Time:     {current_time}")
         timestamp = datetime.fromisoformat(timestamp)
+        print(f"Time stamp:     {timestamp}")
     
         time_diff = current_time - timestamp
         if time_diff.total_seconds() > TIME_THRESHOLD:
@@ -44,7 +46,7 @@ def verify_signature(payload):
 
         message_data = {k: v for k, v in data.items() if k != "signature"}
         message = json.dumps(message_data, sort_keys=True).encode()
-        print("message = ", message)
+        #print("message = ", message)
         signature = base64.b64decode(signature_b64)
         
         with open("./utils/signature/public_master.pem", "rb") as f:
@@ -56,7 +58,7 @@ def verify_signature(payload):
         except BadSignatureError:
             print("\n%%%%% Signature verification failed: Bad signature. %%%%%")
         
-        print("Received message:", message)
+        #print("Received message:", message)
 
         return True
         

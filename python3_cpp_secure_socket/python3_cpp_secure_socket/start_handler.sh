@@ -1,1 +1,0 @@
-LD_LIBRARY_PATH=../install_folder/lib:$PWD/OTA_Handler/build COMMONAPI_CONFIG=commonapi4someip.ini VSOMEIP_CONFIGURATION=/home/jwoon/Documents/python3_cpp_secure_socket/json/IC_OTA.json VSOMEIP_APPLICATION_NAME=OTA-service-internal ./OTA_Handler/build/OTA_inter

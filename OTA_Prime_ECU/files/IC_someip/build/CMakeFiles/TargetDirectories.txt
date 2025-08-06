@@ -1,0 +1,6 @@
+/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/IC_someip/build/CMakeFiles/IC_someip.dir
+/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/IC_someip/build/CMakeFiles/IC_someip-someip.dir
+/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/IC_someip/build/CMakeFiles/edit_cache.dir
+/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/IC_someip/build/CMakeFiles/rebuild_cache.dir
+/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/IC_someip/build/CMakeFiles/IC_someip_autogen.dir
+/home/ota/Documents/OTA_main/OTA_Prime_ECU/files/IC_someip/build/CMakeFiles/IC_someip-someip_autogen.dir

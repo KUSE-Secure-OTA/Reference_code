@@ -1,0 +1,5 @@
+{
+	exec : -> /opt/IC_someip,
+	so : -> /bin/lib,
+	json : -> /opt/IC_someip/json
+}

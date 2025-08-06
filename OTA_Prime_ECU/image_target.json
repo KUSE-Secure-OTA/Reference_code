@@ -1,0 +1,56 @@
+{
+    "version": "2.9.9",
+    "TestABC": {
+        "main.cpp": {
+            "path": "main.cpp",
+            "version": "2.9.9",
+            "sha256": "FIze2QsFAgFOReocY6hVlLAn691/R2jIjv3Z7dDwLwk=",
+            "signature": "hVTFs1b/nTgb0HC5b82ord9cI7eQ73XC+jtw8T4w4OgFZgIh9BNYFVFZZXgD1VU2jlSkfCyelYN66KgoH8iNtcKPP/rSwRq2Nx1h8TFoCm3N5Ar70dNWRGwzrTbdQYc4"
+        },
+        "CMakeLists.txt": {
+            "path": "CMakeLists.txt",
+            "version": "0.0.0",
+            "sha256": "59llmGJ6BhDEE0nnShn5LZUQkCkfOKulCG2KM9E3Qa8=",
+            "signature": "UFtEcFydiZUOwAWXWwF5xxEEeBS/Qdtj04VudHdNF20QxUK2sOOTC+Yz6jPIGt4o0cdlwNHry77tojUZdQ18L/hzc2L7d3fYOxFw6wQZdcZBi6Zz75R+vaRKYTAJvl5h"
+        },
+        "main.qml": {
+            "path": "main.qml",
+            "version": "0.0.1",
+            "sha256": "NukqZU75Lz09WcX1kGgE4X3fZ6OqoUNGVxFcMe59s0M=",
+            "signature": "pFGJvAfcDs0IKtCU7Io6VIYC1pnQ+DVZZUXgitUmkwicfaikFUQMkRMMBV6ang+TpGDhOvFEnbZ8+2xJQtIeSn5GdnUfEG7PQZyrjrx4pnbl0zhtVkDo3SVe+gBjoP9e"
+        },
+        "qml.qrc": {
+            "path": "qml.qrc",
+            "version": "0.0.1",
+            "sha256": "ho9Ke8RW1Tsx3RsYnSFJpAd5v9KJPpJrf5RBNx+hkYI=",
+            "signature": "McNxrOv2Cuohq4dz5zj0J0EWbZJ123AHIjDOiroR4FuDjXhVgHaPRiN80OfAk4t++gcNcKXHCeN9hWy7qXUw0qwCJuUKzmEdcFEB+PIK8Me8pcvmDzNCb25uObbi/WNa"
+        },
+        "hyundai_front.jpg": {
+            "path": "images/hyundai_front.jpg",
+            "version": "2.9.9",
+            "sha256": "2DlSTb5XdS9Xwh3YqPbvwKiBTE7xGzG+6TmY4RQV2Bs=",
+            "signature": "1a3xYHUIPsO5kyNIg1R1Kpa43hHtpe4/x+46TqV80+uuExgRjzlR6Jr0KlR8fpjCllbNBSQXLwtHdx4ahNbmc5LD8K2QGKluNBRdvlZyFmSgWGiFaCOMlepZ9iiOXONc"
+        },
+        "hyundai_front2.jpg": {
+            "path": "images/hyundai_front2.jpg",
+            "version": "2.9.9",
+            "sha256": "go6CZqkar1wwJjPA3GwuWOANpKH5KZZ0lw4jWj9GNHE=",
+            "signature": "6Mh3yflM5e2ubpM2ur0o01qLdxkhRdho2hdUizVZRyML7KWwaAaHgPgYuQFu7oAVVbHn66RK+9UZHhK+QMizuhi6u2+s95NzWvbQXYPB85MsFYEuqkJzNoN4BmDp1GdV"
+        },
+        "aston_logo.png": {
+            "path": "images/aston_logo.png",
+            "version": "2.9.9",
+            "sha256": "ENFtCGb8Br5AT1I320+h2rjFcbSobzYN0bzC4sz+aac=",
+            "signature": "yXORL8lok0F9Pn7RS3ghxUGaba7n5kGTfFFEzK5wMTePBxW9XUEcZhd8j9wXacYSxACrKROnRjprqTr0hLLs/H1LAULEfkAKemsDQrxt2n23NoRI4OeVi1OhmywDgBxB"
+        },
+        "lambo_back.jpg": {
+            "path": "images/lambo_back.jpg",
+            "version": "2.9.9",
+            "sha256": "6NUzLxBolxGyszgRAczeNyEui9W0NSi1P8B2nUGlWt4=",
+            "signature": "6W2HloPmuao92m2mrS8AyerQCbUmNQgWb7LZAE/vb3b/msNqXx8uUiF8dPxuKpV0O9wO7+NG4u4HuKNqQVFG6rhZjq3LM624VUIwQQq8DYgo13XKcvVa1cgm0CuUgrlx"
+        }
+    },
+    "url": "https://192.168.86.115:443/download/update.tar.xz",
+    "timestamp": "2025-06-07T13:56:42.090017+00:00",
+    "signature": "e5e9xXw8o9v+GY7qNiGv0lLW/nY9Fod4Rd7Ff1x3S/6ytOUjbM91SxwjjeERe+DNNAcbaGX4kUX5cycLEfnio2I+AzhUFWN3UtlkWTs/nJ/N0xWNm4Gwr09dHH9VjvOB"
+}

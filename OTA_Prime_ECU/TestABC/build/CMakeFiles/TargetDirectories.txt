@@ -1,8 +1,0 @@
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/TestABC.dir
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/edit_cache.dir
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/rebuild_cache.dir
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/list_install_components.dir
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/install.dir
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/install/local.dir
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/install/strip.dir
-/home/pdc/OTA_main/OTA_Prime_ECU/TestABC/build/CMakeFiles/TestABC_autogen.dir

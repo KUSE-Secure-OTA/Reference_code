@@ -1,0 +1,8 @@
+{
+    "IC_files": [
+        {
+            "name": "IC_someip",
+            "type": "exec"
+        }
+    ]
+}

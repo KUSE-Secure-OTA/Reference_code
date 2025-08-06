@@ -399,3 +399,288 @@ Next File: /home/ota/boot_manager/dir1/start1.sh
 ALT File: /home/ota/boot_manager/dir2/start1.sh
 [INFO] '' process.. PID=780
 Thu May 22 07:47:05 PM CEST 2025: Success: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 12:49:12 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 12:51:55 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 12:55:32 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 12:59:33 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 01:00:54 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 01:03:53 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: /home/ota/boot_manager/dir2/green_window1
+Fri May 23 01:04:54 PM CEST 2025: start change json
+Fri May 23 01:04:54 PM CEST 2025: Change /home/ota/boot_manager/dir1/green_window1 and /home/ota/boot_manager/dir2/green_window1
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=4784
+Fri May 23 01:04:55 PM CEST 2025: Success: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 01:50:35 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 01:51:36 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 01:54:47 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 01:56:58 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 01:59:43 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 02:32:29 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 02:34:12 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 02:34:55 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 02:36:51 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 02:37:47 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 02:41:03 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 02:45:10 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 03:05:14 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: /home/ota/boot_manager/dir2/green_window1
+Fri May 23 03:06:31 PM CEST 2025: start change json
+Fri May 23 03:06:31 PM CEST 2025: Change /home/ota/boot_manager/dir1/green_window1 and /home/ota/boot_manager/dir2/green_window1
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=8257
+Fri May 23 03:06:32 PM CEST 2025: Failed: /home/ota/boot_manager/dir1/start1.sh, ran /home/ota/boot_manager/dir2/start1.sh instead
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 03:09:50 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 03:14:35 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: /home/ota/boot_manager/dir2/green_window1
+Fri May 23 03:15:41 PM CEST 2025: start change json
+Fri May 23 03:15:41 PM CEST 2025: Change /home/ota/boot_manager/dir1/green_window1 and /home/ota/boot_manager/dir2/green_window1
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=9065
+Fri May 23 03:15:41 PM CEST 2025: Success: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 03:22:03 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 03:23:36 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: /home/ota/boot_manager/dir2/green_window1
+Fri May 23 03:24:56 PM CEST 2025: start change json
+Fri May 23 03:24:56 PM CEST 2025: Change /home/ota/boot_manager/dir1/green_window1 and /home/ota/boot_manager/dir2/green_window1
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=9575
+Fri May 23 03:24:57 PM CEST 2025: Success: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 23 03:26:19 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: /home/ota/boot_manager/dir2/green_window1
+Fri May 23 03:28:32 PM CEST 2025: start change json
+Fri May 23 03:28:33 PM CEST 2025: Change /home/ota/boot_manager/dir1/green_window1 and /home/ota/boot_manager/dir2/green_window1
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=9884
+Fri May 23 03:28:33 PM CEST 2025: Success: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 03:30:14 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 04:45:22 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 04:46:03 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 04:47:04 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: /home/ota/boot_manager/dir2/green_window1
+Fri May 23 04:50:26 PM CEST 2025: start change json
+Fri May 23 04:50:27 PM CEST 2025: Change /home/ota/boot_manager/dir1/green_window1 and /home/ota/boot_manager/dir2/green_window1
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=10681
+Fri May 23 04:50:27 PM CEST 2025: Failed: /home/ota/boot_manager/dir2/start1.sh, ran /home/ota/boot_manager/dir1/start1.sh instead
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 23 05:18:42 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: 
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=780
+Fri May 23 05:19:16 PM CEST 2025: Success: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: 
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=786
+Mon May 26 04:22:16 PM CEST 2025: Success: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/green_window1
+FILE2: 
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=789
+Wed May 28 05:57:35 PM CEST 2025: Failed: /home/ota/boot_manager/dir1/start1.sh, ran /home/ota/boot_manager/dir2/start1.sh instead
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 30 01:51:55 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 30 02:36:22 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+FILE1: 
+FILE2: /home/ota/boot_manager/dir2/TestABC
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=5001
+Fri May 30 02:48:00 PM CEST 2025: Success: /home/ota/boot_manager/dir2/start1.sh
+FILE1: /home/ota/boot_manager/dir1/TestABC
+FILE2: /home/ota/boot_manager/dir2/TestABC
+Fri May 30 02:53:30 PM CEST 2025: start change json
+Fri May 30 02:53:43 PM CEST 2025: Change /home/ota/boot_manager/dir1/TestABC and /home/ota/boot_manager/dir2/TestABC
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=5364
+Fri May 30 02:53:43 PM CEST 2025: Success: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 30 02:55:47 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+FILE1: /home/ota/boot_manager/dir1/TestABC
+FILE2: /home/ota/boot_manager/dir2/TestABC
+Fri May 30 02:58:21 PM CEST 2025: start change json
+Fri May 30 02:59:51 PM CEST 2025: Change /home/ota/boot_manager/dir1/TestABC and /home/ota/boot_manager/dir2/TestABC
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=5874
+Fri May 30 02:59:52 PM CEST 2025: Success: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 30 03:05:57 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/TestABC
+FILE2: /home/ota/boot_manager/dir2/TestABC
+Fri May 30 03:08:19 PM CEST 2025: start change json
+Fri May 30 03:08:19 PM CEST 2025: Change /home/ota/boot_manager/dir1/TestABC and /home/ota/boot_manager/dir2/TestABC
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=6376
+Fri May 30 03:08:20 PM CEST 2025: Success: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Fri May 30 04:03:04 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+FILE1: /home/ota/boot_manager/dir1/IC_someip
+FILE2: /home/ota/boot_manager/dir2/mylog.log
+Fri May 30 04:11:53 PM CEST 2025: start change json
+Fri May 30 04:11:53 PM CEST 2025: Change /home/ota/boot_manager/dir1/IC_someip and /home/ota/boot_manager/dir2/mylog.log
+Next Dir: dir1
+ALT DIR: dir2
+Next File: /home/ota/boot_manager/dir1/start1.sh
+ALT File: /home/ota/boot_manager/dir2/start1.sh
+[INFO] '' process.. PID=9407
+Fri May 30 04:11:54 PM CEST 2025: Success: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 30 04:15:27 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 30 04:19:00 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 30 04:28:01 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 30 04:32:59 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 30 04:34:01 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+[Simple] Next Dir: dir1
+[Simple] Next File: /home/ota/boot_manager/dir1/start1.sh
+Fri May 30 04:40:37 PM CEST 2025: Start: /home/ota/boot_manager/dir1/start1.sh
+FILE1: /home/ota/boot_manager/dir1/IC_someip
+FILE2: /home/ota/boot_manager/dir2/IC_someip
+Fri May 30 04:42:58 PM CEST 2025: start change json
+Fri May 30 04:42:58 PM CEST 2025: Change /home/ota/boot_manager/dir1/IC_someip and /home/ota/boot_manager/dir2/IC_someip
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=12117
+Fri May 30 04:42:59 PM CEST 2025: Success: /home/ota/boot_manager/dir2/start1.sh
+FILE1: 
+FILE2: /home/ota/boot_manager/dir2/IC_someip
+Next Dir: dir2
+ALT DIR: dir1
+Next File: /home/ota/boot_manager/dir2/start1.sh
+ALT File: /home/ota/boot_manager/dir1/start1.sh
+[INFO] '' process.. PID=781
+Fri May 30 06:31:59 PM CEST 2025: Success: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Mon Jun  2 12:11:34 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Mon Jun  2 12:15:35 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Mon Jun  2 12:19:03 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Mon Jun  2 12:19:27 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
+[Simple] Next Dir: dir2
+[Simple] Next File: /home/ota/boot_manager/dir2/start1.sh
+Mon Jun  2 12:21:39 PM CEST 2025: Start: /home/ota/boot_manager/dir2/start1.sh
