@@ -150,54 +150,10 @@ class FileChangeHandler(FileSystemEventHandler):
                 print(f"[ERROR] Copy failed: {e}")
 
         # 최종 JSON 저장
-        final_output = "../../OTA_Director_director/data/target_new.json"
+        final_output = "../../OTA_Director_director/src/data/target_new.json"
         with open(final_output, "w", encoding="utf-8") as f:
             json.dump({"version": max_version, **all_result}, f, indent=4, ensure_ascii=False)
         print(f"[output] JSON updated: {final_output}")
-
-
-# class FileChangeHandler(FileSystemEventHandler):
-#     def __init__(self, watch_dir, image_dir):
-#         self.watch_dir = watch_dir
-#         self.image_dir = image_dir
-#         self.json_handler = JsonHandler()
-
-#     def copy_with_overwrite(src, dst):
-#         os.makedirs(dst, exist_ok=True)
-#         for item in os.listdir(src):
-#             src_path = os.path.join(src, item)
-#             dst_path = os.path.join(dst, item)
-#             if os.path.isdir(src_path):
-#                 copy_with_overwrite(src_path, dst_path)
-#             else:
-#                 shutil.copy2(src_path, dst_path)
-
-#     def on_created(self, event):
-#         if event.is_directory:  # 디렉토리가 생성될 때만 처리
-#             folder_name = os.path.basename(event.src_path)
-#             print(f"New directory detected: {folder_name}")
-
-#             # MQTT 메시지 전송
-#             # message = json.dumps({"event": "directory_added", "directory": foldername})
-#             print("=" * 50, "\n\n", "Notify New Update")
-
-#             # 디렉토리 내부의 파일들을 JSON으로 저장
-#             print(f"Running directory_to_json for {event.src_path}")
-#             self.json_handler.target_to_inventory_json(event.src_path, "../../OTA_Director_director/data/target_new.json")
-#             self.json_handler.target_to_json(event.src_path, "../data/target_new.json")
-#             # with open("../data/output.json", "r", encoding="utf-8") as f:
-#             #     data = json.load(f)
-
-#             dest_path = os.path.join(self.image_dir, folder_name)
-#             try:
-#                 if os.path.exists(dest_path):
-#                     shutil.rmtree(dest_path)
-#                 shutil.copytree(event.src_path, dest_path)
-#                 print(f"Trasfer files to Image Repo    ->    {dest_path}")
-#             except Exception as e:
-#                 print(f"Fail to transfer:   {e}")
-            
-#             print("directory_to_json executed.")
 
 if __name__ == "__main__":
     # 감시할 디렉토리 설정
