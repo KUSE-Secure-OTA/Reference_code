@@ -18,8 +18,8 @@ class DirectorRepoHandler:
         self.update_meta_topic = "director/updateMeta"
         self.notify_version_topic = "primary/version"
 
-        self.update_json = "../data/update.json"
-        self.target_meta = "../data/target_new.json"
+        self.update_json = "./data/update.json"
+        self.target_meta = "./data/target_new.json"
 
         self.ca_cert = "./utils/certs/ca.crt"
         self.client_cert = "./utils/certs/mqtt_client.crt"
@@ -127,7 +127,7 @@ def configure_tls(client, ca_cert, client_cert, client_key):
     client.tls_insecure_set(False)
 
 if __name__ == "__main__":
-    handler = DirectorRepoHandler("192.168.86.37", 8883)
+    handler = DirectorRepoHandler("10.222.88.12", 8883)
     handler.connect_mqtt()
     handler.loop_mqtt()
 

@@ -1,31 +1,53 @@
 {
-    "version": "0.0.0",
-    "IC_someip": {
-        "IC_someip": {
-            "path": "build/IC_someip",
-            "version": "0.0.0",
-            "sha256": "Np4E+FfAzqopWvSpbbZREfosR0XRNuL7+R8noXQT+h0=",
-            "signature": "/UyNBR92b3mGtg3ICO95t19PL+5IaLeVIjYCjslUaUPuqBsLrkixZOh7flbdyCiKp6SM60BeirIPW+jKIhfUZrpyNwB+VCn7DlxZfT+jCvjeAyc/6tP3anC92wH3QaGz"
+    "version": "2.9.9",
+    "TestABC": {
+        "main.cpp": {
+            "path": "main.cpp",
+            "version": "2.9.9",
+            "sha256": "FIze2QsFAgFOReocY6hVlLAn691/R2jIjv3Z7dDwLwk=",
+            "signature": "dwKegEuhYFKdzH121kALbq/ItvFBeowhTCubjH4jM9f0R/uTAeQEL3tgPfXQ1m4aa/78+o5jpzpFhUz4OvpnPpLo0kp+QI97sENoii7UUk5LSZtooery0ocfI91wKCY8"
         },
-        "libIC_someip-someip.so": {
-            "path": "build/libIC_someip-someip.so",
+        "CMakeLists.txt": {
+            "path": "CMakeLists.txt",
             "version": "0.0.0",
-            "sha256": "JEU0y89WRmkCtnHNPetgnjgHHr/CK2wHGn8NsZ6Wxyo=",
-            "signature": "f+5HWD6pgUNRYG50KDcT5fcoDoTG46mVCu1XallMyKD4+hanjseex2lnCHgVWwt2Oi1RkSpoXWkf9Bcke8PHn2Nu/tumBBpEcalWBJJqvO8q4afdjraFPddJ7uSRUZaI"
-        }
-    },
-    "Head_Unit_app": {
-        "libHead_Unit_app-someip.so": {
-            "path": "build/libHead_Unit_app-someip.so",
-            "version": "0.0.0",
-            "sha256": "26oqqopyD134TBMzUQqe3Y3WB+txwirE1IbURT38HcU=",
-            "signature": "pxvEjySQf2pwox+71Eyn2r81ahYuTU4+yVkMJWxo0Ud9JJexCKPa8VtOSHlQrn82mZ9TVvGiqvClGzxc25uZjBCm55x5pE3FRgJfVJu9cIjwYiyJW5ZtKcZ5jbks/Kur"
+            "sha256": "59llmGJ6BhDEE0nnShn5LZUQkCkfOKulCG2KM9E3Qa8=",
+            "signature": "LIhnTA51C75D4N3TWY6kJ9isEIR+1JVKxE9xBvBWvMSUD+ASILts3H4rS4b7ZGf8vFC+DylrtmUh22Nj8zOXGzkCarswwPOLDmbn8LjGgBMRVeURcN5VVgGWjONX1mHa"
         },
-        "Head_Unit_app": {
-            "path": "build/Head_Unit_app",
-            "version": "0.0.0",
-            "sha256": "7+w4wmo1njf18kU5byszyUhLAXJ3eU38uwrg4CofPEs=",
-            "signature": "mkwfpzHOGaN4R2aDhturPA3uWdmQQ9MIrnGUBdyMyOyFGjteeo/X38aQmRSuh8LOiUYDOo0yhgpErnZQVyLzf5CbtnrhHodBmFQXZ6x04NR3oLqQBassv+mVFCN30TuV"
+        "main.qml": {
+            "path": "main.qml",
+            "version": "0.0.1",
+            "sha256": "NukqZU75Lz09WcX1kGgE4X3fZ6OqoUNGVxFcMe59s0M=",
+            "signature": "8WdXCXk8il8qSiU/nh//ULKlchiRh2D7JzJGXHcJwSEnJ8LGocz8AXy58urwtAc0oKn8tTuny59AKqokstKWfWi2XRCUfuU2w5j7x/oIiK8b3KgmBDeuy7VO+4mUc4TN"
+        },
+        "qml.qrc": {
+            "path": "qml.qrc",
+            "version": "0.0.1",
+            "sha256": "ho9Ke8RW1Tsx3RsYnSFJpAd5v9KJPpJrf5RBNx+hkYI=",
+            "signature": "h6BQYkQQRwPxc8zsB/iT71+Uq6oCv4HJg7D/P842uEnPxRzZ82DCP3LXIQC0U9mUu9T6AaZXY1AGe3xrfokLioci3qWTZbbGBpyyRmTIbc5BsR/Z8SyuQeOzR9qoNpvs"
+        },
+        "hyundai_front2.jpg": {
+            "path": "images/hyundai_front2.jpg",
+            "version": "2.9.9",
+            "sha256": "go6CZqkar1wwJjPA3GwuWOANpKH5KZZ0lw4jWj9GNHE=",
+            "signature": "IumlltHvRU4ZJtL8Oc4xaBrq74194ttPNB/7kQerFXM2TN5Jkusk5WnmJyNGMRZRjWXmQ+aoRr9oNod38/vN8ipabQOFvHrts8Ej5IvDlkZnKeDOrLFqMgIJDwR2ytCo"
+        },
+        "hyundai_front.jpg": {
+            "path": "images/hyundai_front.jpg",
+            "version": "2.9.9",
+            "sha256": "2DlSTb5XdS9Xwh3YqPbvwKiBTE7xGzG+6TmY4RQV2Bs=",
+            "signature": "49Qi733f0umNiIDto0977xrtBmLQKTMlfvHvE2n5dTAjSNrke1BoQixyEPUTNcbdy+1nLA23OywXrpXJ49teMNpX6Gh+yD7g4k5l5qOmcP84dXp7xvIhKyHZIySW//9o"
+        },
+        "lambo_back.jpg": {
+            "path": "images/lambo_back.jpg",
+            "version": "2.9.9",
+            "sha256": "6NUzLxBolxGyszgRAczeNyEui9W0NSi1P8B2nUGlWt4=",
+            "signature": "CGSQCCwz4a5m4UF4qa1FnY9OvEdombL7nJMXxI0L6eCdTc6KHBE7fXjMKZcCVlrY0K5dJyfkNclWnrOBTc+SsFZ+8w1T840xHeI05ByVI08yfYoHP1AZKTgZrY8/X2RO"
+        },
+        "aston_logo.png": {
+            "path": "images/aston_logo.png",
+            "version": "2.9.9",
+            "sha256": "ENFtCGb8Br5AT1I320+h2rjFcbSobzYN0bzC4sz+aac=",
+            "signature": "H3sldME+K20QgWUj3izDzaodKbK75K7mJjgdrZGWEn3M6fwIyiNwyOXfeBr2/YPTbSQNsMvQ5eJOLog63VyF33jJk2o77/wYoQM7HG5mUNvyqyKWunwJceI4qUQVqxex"
         }
     }
 }

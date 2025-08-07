@@ -15,7 +15,7 @@ from json_manage import JSON_manager
 import requests
 import os
 
-brokerIp = "192.168.86.22"
+brokerIp = "10.222.88.12"
 port = 8883
 topic_from_server_notify = "file/added"
 topic_from_server_files = "file/files"

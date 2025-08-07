@@ -91,7 +91,7 @@ class FileHandler:
                 with open("./data/target_image.json", "r", encoding="utf-8") as f:
                     data = json.load(f)
 
-                upload_url = "https://localhost:443/upload"
+                upload_url = "https://localhost:8443/upload"
                 with open(self.files_path, 'rb') as f:
                     files = {'file': ('update_image.tar.xz', f)}
                     res = requests.post(upload_url, files=files, verify="./utils/certs/https_server.crt")
@@ -184,7 +184,7 @@ if __name__ == "__main__":
         filepath = os.path.join(UPLOAD_FOLDER, file.filename)
         file.save(filepath)
         print(f"✅ File saved at: {filepath} ({os.path.getsize(filepath)} bytes)")
-        return {"url": f"https://192.168.86.115:443/download/{file.filename}"}, 200
+        return {"url": f"https://10.222.88.12:8443/download/{file.filename}"}, 200
 
     @app.route('/download/<filename>', methods=['GET'])
     def download_file(filename):
@@ -192,14 +192,14 @@ if __name__ == "__main__":
     # ===== Flask 서버를 백그라운드 스레드로 실행 =====
     def run_server():
         context = ('./utils/certs/https_server.crt', './utils/certs/https_server.key')
-        app.run(host="0.0.0.0", port=443, ssl_context=context)
+        app.run(host="0.0.0.0", port=8443, ssl_context=context)
     # ================================= Flask 서버 설정 끝 =================================
 
     server_thread = threading.Thread(target=run_server, daemon=True)
     server_thread.start()
 
     # MQTT 설정
-    MQTT_BROKER = "192.168.86.37"  # 또는 MQTT 서버 IP
+    MQTT_BROKER = "10.222.88.12"  # 또는 MQTT 서버 IP
     MQTT_PORT = 8883
 
     # 감시할 디렉토리 설정
